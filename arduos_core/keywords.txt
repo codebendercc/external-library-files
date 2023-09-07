@@ -1,0 +1,27 @@
+#library
+arduos_core  KEYWORD1
+
+#functions and macros
+SYS_getStack    KEYWORD2
+SYS_setStack    KEYWORD2
+SYS_storeContext    KEYWORD2
+SYS_loadContext KEYWORD2
+SYS_invoke  KEYWORD2
+sleep   KEYWORD2
+iSleep  KEYWORD2
+
+#belonging to Scheduler
+get KEYWORD2
+sequence    KEYWORD2
+replace KEYWORD2
+
+#namespace SYS
+SYS KEYWORD3
+
+#classes
+Task    KEYWORD1
+Scheduler   KEYWORD1
+
+#static variables
+stack_addr  LITERAL2
+master  LITERAL2

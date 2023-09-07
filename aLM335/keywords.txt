@@ -1,0 +1,7 @@
+# Definition of keywords for the IDE to use
+
+aLM335	KEYWORD1
+getRaw	KEYWORD2
+getKelvin	KEYWORD2
+getCelsius	KEYWORD2
+getFahrenheit	KEYWORD2

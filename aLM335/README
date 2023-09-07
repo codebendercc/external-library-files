@@ -1,0 +1,86 @@
+aLM335 Copyright 2011 Kes Calhoun
+
+1. Description
+
+aLM335 is a library for controlling the common LM335 sensor. This sensor is
+used, in among other places, the Arduino explorer kit. It's one of the first
+"complicated" sensors an Arduino user tends to poke at, and has a few pitfalls
+in its use. This library handles most of the difficult tasks faced by someone
+wishing to use this component, and includes several helpful functions.
+
+2. Usage
+
+This library will handle setting up the microcontroller, polling the ADC,
+converting data from the ADC to the desired units, and managing the reference
+voltages.
+
+2.1 Initialization
+
+This library is initialized much like any other C library:
+
+    aLM335 variable [(any, optional, parameters)];
+
+Because most of the time, people don't care about large customizations, the
+library will handle most of the common cases for you. If you just want to use
+the library with the bare defaults of activating on pin zero, with a five volt
+internal reference, you instantiate it as follows:
+
+	aLM335 variable;
+	
+Instantiating it with using another pin is done as follows:
+
+	aLM335 variable(int pin);
+	
+With using other than a 5 volt reference voltage:
+
+	aLM335 variable(int pin, float refVoltage);
+	
+And, if you also want to switch to using an external reference voltage:
+
+    aLM335 variable(int pin, float refVoltage, bool use_ext_ref);
+
+2.2 Getting values:
+
+There are four functions included in the library for handling values:
+
+  getRaw();
+  getKelvin();
+  getCelsius();
+  getFahrenheit();
+  
+getRaw returns an integer with the raw value from the ADC, no conversion done,
+just a straight integer. getKelvin() will return a float with the temperature
+in Kelvin, getCelsius() will do the same with a Celsius value, and
+getFahrenheit() will do the same with a Fahrenheit value.
+
+3. Licensing
+
+This library is available under the BSD license. This allows you to use the
+code in pretty much whatever way you want, as long as you abide by the rules
+it sets out:
+
+Copyright (c) 2011 Kes Calhoun
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

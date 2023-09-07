@@ -1,0 +1,18 @@
+TButton - Toggle Button Using Momentary Switch
+
+Version: 1.0
+License: Public Domain
+Author: Bruce Momjian <bruce@momjian.us>
+Website: http://momjian.us
+
+This library allows a momentary switch to function as an on/off toggle
+switch by checking for button press and changing the button state (and
+handles button bounce).  This library also adds a method for delays that
+also checks for button presses during the delay.
+
+To install, find the directory used by Sketch > Import Library and unzip
+the file into that directory.  The library will then show up in Sketch >
+Import Library.  See TButton.h for the library interface details.
+
+I used ideas from http://www.arduino.cc/en/Hacking/LibraryTutorial in
+creating this library.

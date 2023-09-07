@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For Matrix
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Motor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Rotate	KEYWORD2
+Stop	KEYWORD2
+ChangeSpeed	KEYWORD2
+ChangeDirection	KEYWORD2
+ChangeSpeedRegulation	KEYWORD2
+GetSpeedRegulation	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+FORWARD	LITERAL1
+REVERSE	LITERAL1

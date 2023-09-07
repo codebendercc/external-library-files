@@ -1,0 +1,56 @@
+#######################################
+# Syntax Coloring Map For MINI SMART GPU
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MINISMARTGPU	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init                 KEYWORD2
+reset                KEYWORD2
+start                KEYWORD2
+erase                KEYWORD2
+sleep                KEYWORD2
+orientation          KEYWORD2
+bright               KEYWORD2
+baudChange           KEYWORD2
+setEraseBackColour   KEYWORD2
+putPixel             KEYWORD2
+drawLine             KEYWORD2
+drawRectangle        KEYWORD2
+drawTriangle         KEYWORD2
+drawCircle           KEYWORD2
+putLetter            KEYWORD2
+string               KEYWORD2
+stringSD             KEYWORD2
+setTextColour        KEYWORD2
+setTextBackColour    KEYWORD2
+setTextSize          KEYWORD2
+setTextBackFill      KEYWORD2
+drawIcon             KEYWORD2
+imageBMPSD           KEYWORD2
+getImageFromMemory   KEYWORD2
+SDFgetList           KEYWORD2
+SDFgetFileName       KEYWORD2
+SDFnewFile           KEYWORD2
+SDFopenFile          KEYWORD2
+SDFcloseFile         KEYWORD2
+SDFsaveFile          KEYWORD2
+SDFsetFilePointer    KEYWORD2
+SDFgetFilePointer    KEYWORD2
+SDFreadFile          KEYWORD2
+SDFwriteFile         KEYWORD2
+SDFtruncateFile      KEYWORD2
+SDFeraseFile         KEYWORD2
+SDFgetFileSize       KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################

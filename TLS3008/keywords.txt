@@ -1,0 +1,17 @@
+TLS3008	KEYWORD 1
+setOutputPin	KEYWORD 2
+setPulseLength	KEYWORD 2
+setEOSyncDelay	KEYWORD 2
+setEOResetDelay	KEYWORD 2
+setEOEmptyFrameDelay	KEYWORD 2
+setEOFrameDelay	KEYWORD 2
+initCom	KEYWORD 2
+sendEmptyFrame	KEYWORD 2
+sendRGBFrame	KEYWORD 2
+setPixelColor	KEYWORD 2
+fillPixels	KEYWORD 2
+clearPixels	KEYWORD 2
+sendRGBFrame	KEYWORD 2
+setPixelColor	KEYWORD 2
+fillPixels	KEYWORD 2
+clearPixels	KEYWORD 2

@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map for LPM11162
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LPM11162	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	    KEYWORD2
+end	        KEYWORD2
+play	    KEYWORD2
+stop	    KEYWORD2
+volume	    KEYWORD2
+isBusy	    KEYWORD2
+reset	    KEYWORD2
+bridge	    KEYWORD2
+synch	    KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LPM_NO_PIN  LITERAL1

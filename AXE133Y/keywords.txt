@@ -1,0 +1,17 @@
+AXE133Y	KEYWORD1
+writeByte	KEYWORD2
+splash	KEYWORD2
+displayShow	KEYWORD2
+cursorShow	KEYWORD2
+cursorBlink	KEYWORD2
+clearScreen	KEYWORD2
+cursorHome	KEYWORD2
+cursorLeft	KEYWORD2
+cursorRight	KEYWORD2
+cursorPosition	KEYWORD2
+printMessage	KEYWORD2
+print	KEYWORD2
+outputWrite	KEYWORD2
+backspace	KEYWORD2	
+printFloat	KEYWORD2
+	

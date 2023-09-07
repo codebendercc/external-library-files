@@ -1,0 +1,20 @@
+pfodCHAP	KEYWORD1
+
+asciiToHex	KEYWORD2
+hexToAscii	KEYWORD2
+
+setIdleTimeout	KEYWORD2
+setDebugStream	KEYWORD2
+init	KEYWORD2
+getPfodAppStream	KEYWORD2
+disconnected	KEYWORD2
+connected	KEYWORD2
+DisconnectNow	KEYWORD2
+parse KEYWORD2
+getCmd KEYWORD2
+getFirstArg KEYWORD2
+getArgsCount KEYWORD2
+parseLong KEYWORD2
+
+
+	
